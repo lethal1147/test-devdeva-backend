@@ -31,7 +31,8 @@ async function init() {
   const app = express();
   const port = 4000;
 
-  app.use(cors(corsOption));
+  // app.use(cors(corsOption));
+  app.use(cors());
 
   app.use(express.json());
   app.use("/users", userRouter);
