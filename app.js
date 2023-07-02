@@ -6,7 +6,7 @@ import cloudinary from "cloudinary";
 import userRouter from "./routers/user.router.js";
 
 const corsOption = {
-  origin: "http://localhost:5173",
+  origin: "https://devdevausermanagement.vercel.app/",
   credentials: true,
 };
 
